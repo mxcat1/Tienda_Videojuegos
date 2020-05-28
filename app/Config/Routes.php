@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/Productos', 'ProductoController::index');
-
+$routes->resource('Categoria',['controller'=>'CategoriaController']);
 /**
  * --------------------------------------------------------------------
  * Additional Routing
