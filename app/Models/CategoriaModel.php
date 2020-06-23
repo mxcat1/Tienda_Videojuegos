@@ -10,7 +10,7 @@ class CategoriaModel extends Model
 {
     protected $table ='categoriaproducto';
     protected $primaryKey ='idCategoriaProducto';
-    protected $allowedFields =['idCategoriaProducto','nombreCategoriaProducto','descripcionCategoriaProducto'];
+    protected $allowedFields =['nombreCategoriaProducto','descripcionCategoriaProducto'];
 
     public function MostrarCategoria($id = null)
     {
